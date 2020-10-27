@@ -4,5 +4,5 @@ The simple example of Mqtt Publisher/ Subscriber
 
 ## Short instruction:
 
-* `git clone https://github.com/CloudMQTT/go-mqtt-example.git`
+* `go get github.com/eclipse/paho.mqtt.golang`
 * `make run-mqtt`
