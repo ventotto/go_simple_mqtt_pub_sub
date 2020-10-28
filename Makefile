@@ -13,11 +13,13 @@ build:
 run-main:
 	@go run main.go
 
-run-mqtt:
+run-mqtt-sub:
 	@echo $$MQTT_URL
-	@go run main_mqtt.go
+	@go run main_mqtt_sub.go
 
-
+run-mqtt-pub:
+	@echo $$MQTT_URL
+	@go run main_mqtt_pub.go
 
 
 

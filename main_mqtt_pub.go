@@ -10,9 +10,7 @@ import (
 
 func main() {
 	topic := "test"
-
-	go connector.Listen(topic)
-
+	println("Publisher ...")
 	timer := time.NewTicker(1 * time.Second)
 	noMsg := 1;
 	for t := range timer.C {
